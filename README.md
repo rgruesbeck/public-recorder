@@ -1,6 +1,15 @@
 # public-recorder
 automation for digitizing public records from digital photos
 
+## use
+move folder with all .IMG files into public-recorder directory.
+
+then run
+```bash
+./build.sh <img-dir>
+```
+
+
 ## dependencies
 imagemagick
 pdfunite
