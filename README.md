@@ -1,22 +1,14 @@
 # public-recorder
-automation for digitizing public records from digital photos
+Access to public records can be limited by policies designed to minimize access such as policies against making copies, and access only for limited amounts of time at specified locations. This script helps automate the creation of text searchable pdf files from digital photos of documents. (best results with a high resolution camera)
 
 ## use
-move folder with all .IMG files into public-recorder directory.
+Move folder with all .IMG files into public-recorder directory.
 
-then run
 ```bash
-./build.sh <img-dir>
+./run.sh <img-dir>
 ```
 
 
 ## dependencies
-imagemagick
-pdfunite
-pypdfocr
-ps
-
-## todo
-move fred's scripts into lib
-move to functions for each task
-refactor text orientation function
+- imagemagick
+- pypdfocr
